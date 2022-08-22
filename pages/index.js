@@ -32,7 +32,7 @@ export default function Home() {
       <footer className='flex flex-col items-center p-4 space-y-3 text-xs font-light text-gray-500'>
         
         {/* Extra contact - Desktop format */}
-        <p className='hidden text-center sm:block'>Pentru orice informații sau nelămuriri, ne poți scrie la contact@fsmdr.ro</p>
+        <p className='hidden text-center sm:block'>Pentru orice informații sau nelămuriri, ne poți scrie la <a className='underline underline-offset-4' href="mailto:contact@fsmdr">contact@fsmdr.ro</a></p>
 
         {/* Phone Contact */}
         <div className='flex flex-col space-y-3 sm:space-y-0 sm:space-x-4 sm:flex-row'>
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
         {/* Extra contact - Mobile format */}
-        <p className='text-center sm:hidden'>Pentru orice informații sau nelămuriri, ne poți scrie la contact@fsmdr.ro</p>
+        <p className='text-center sm:hidden'>Pentru orice informații sau nelămuriri, ne poți scrie la <a className='underline underline-offset-4' href="mailto:contact@fsmdr">contact@fsmdr.ro</a></p>
         
       </footer>
 
