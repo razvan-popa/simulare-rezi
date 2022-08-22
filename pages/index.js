@@ -36,8 +36,8 @@ export default function Home() {
 
         {/* Phone Contact */}
         <div className='flex flex-col space-y-3 sm:space-y-0 sm:space-x-4 sm:flex-row'>
-          <Contact phone='+40770855191' role='COORDONATOR' name='Răzvan Popa'></Contact>
           <Contact phone='+40722501975' role='ORGANIZATOR' name='Radu Ionescu'></Contact>
+          <Contact phone='+40770855191' role='COORDONATOR' name='Răzvan Popa'></Contact>
         </div>
 
         {/* Extra contact - Mobile format */}
